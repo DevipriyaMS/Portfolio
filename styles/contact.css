@@ -77,39 +77,24 @@ body {
 .contact-container{
     margin-top: -60px;
 }
-
-#logos{
+/* #logos{
     text-align: center;
-    /* margin-top: 10px;
+    margin-top: 40px;
     padding-right: 20px;
     size: 20px;
     justify-content: flex-end;
     display: inline;
     padding-inline: 10px;
-    size: 100px; */
+    size: 100px;
 }
 #logos i{
     display: inline;
     padding-inline: 16px;
-    margin-bottom: 8px;
-    font-size: 30px;
+    font-size: 55px;
     text-decoration: none;
-    color: whitesmoke
-}
-/* #contactmain{
-    background: rgb(53,56,57);
-    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
-    height: 600px;
-    width: 100%;
+    color: black;
 } */
-#contactmain h2{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 50px;
-    font-style: bold;
-}
+
 .contactform{
     justify-content: center;
     align-items: center;

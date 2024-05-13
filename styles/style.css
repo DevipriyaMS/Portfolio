@@ -6,10 +6,10 @@ body {
     background-size:cover;
     /* background: rgb(53,56,57);
     background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
-    height: 700px; */
-    /* background-size:cover; */
+    height: 700px;
+    background-size:cover; */
     /* background: rgb(14,10,124);
-background: linear-gradient(90deg, rgba(14,10,124,0.9716678907891282) 32%, rgba(0,0,0,1) 100%); */
+    background: linear-gradient(90deg, rgba(14,10,124,0.9716678907891282) 32%, rgba(0,0,0,1) 100%); */
 }
 
 #home{
