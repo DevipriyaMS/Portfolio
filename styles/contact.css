@@ -1,16 +1,89 @@
-body{
+body {
     background: rgb(53,56,57);
     background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
     /* height: 700px; */
     background-size:cover;
     margin: 0%;
 }
+
+.container {
+    margin-top: 0px;
+}
+
+.contact-style {
+    height: 30vh;
+    position: relative;
+    margin-top: 5%;
+}
+
+.overlay {
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30vh; */
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(255, 255, 255, 0.9) 80%,
+        rgba(255, 255, 255, 0.25) 95%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+ 
+.text {
+    font-family: "Yanone Kaffeesatz";
+    color: white;
+    font-size: 60px;
+    display: flex;
+    position: absolute;
+    bottom: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+
+    .wrapper {
+        padding-left: 5px;
+        padding-right: 20px;
+        padding-top: 13px;
+
+        .letter {
+            transition: ease-out 1s;
+            transform: translateY(40%);
+        }
+
+        .shadow {
+            transform: scale(1, -1);
+            color: #999;
+            transition: ease-in 5s, ease-out 5s;
+        }
+
+        &:hover {
+            .letter {
+                transform: translateY(-50%);
+            }
+
+            .shadow {
+                opacity: 0;
+                transform: translateY(50%);
+            }
+        }
+    }
+}
+
+.contact-container{
+    margin-top: -60px;
+}
+
 #logos{
     text-align: center;
-    margin-top: 10px;
-    /* padding-right: 20px;
-    size: 20px; */
-    /* justify-content: flex-end;
+    /* margin-top: 10px;
+    padding-right: 20px;
+    size: 20px;
+    justify-content: flex-end;
     display: inline;
     padding-inline: 10px;
     size: 100px; */
@@ -18,7 +91,8 @@ body{
 #logos i{
     display: inline;
     padding-inline: 16px;
-    font-size: 55px;
+    margin-bottom: 8px;
+    font-size: 30px;
     text-decoration: none;
     color: whitesmoke
 }
@@ -40,12 +114,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 30px;
 }
 label{
-    /* padding-right: 20px;
+/* padding-right: 20px;
     padding-left: 90px; */
     font-size: 20px;
-    /* justify-content: center;
+/* justify-content: center;
     align-items: center;
     text-align: center; */
     font-style: bold;
@@ -77,11 +152,13 @@ button{
     padding: 7px;
     border-style: solid;
     box-shadow: #c2c2c2;
-    color: black;
-    font-weight:600;
+}
+button a{
     text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-weight:600;
     font-size: 25px;
 }
 button:hover{
-    color: rgb(5, 13, 49);
+    color: rgb(11, 19, 56);
 }
