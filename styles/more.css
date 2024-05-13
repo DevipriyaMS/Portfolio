@@ -1,0 +1,123 @@
+body{
+    background: rgb(53,56,57);
+    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    /* height: 700px; */
+    background-size:cover;
+}
+
+.icon a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgba(177, 143, 143, 0.683);
+}
+
+nav {
+    text-align: center;
+    margin-top: 9px;
+}
+  
+nav ul {
+    list-style-type: none;
+}
+  
+nav ul li {
+    display: inline;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+#skills {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#skills h2{
+    color: #fff;
+    font-size: 40px; 
+}
+  
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.skill {
+    width: calc(25% - 20px);
+    margin: 30px;
+    transition: transform 0.3s ease;
+}
+  
+.skill img {
+    width: 50%;
+}
+  
+.skill:hover {
+    transform: scale(1.5);
+}
+
+#hobbies{
+    margin-top: 55px;
+}
+.hobbies-heading h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+.hobbies-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .hobby {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+  }
+
+  .hobby-icon img{
+    height: 100px;
+    width: auto;
+}
+  
+/* .hobby-icon {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    color: transparent;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+} */
+  
+  .hobby:hover .hobby-text {
+    opacity: 1;
+  }
+  
+  .hobby-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(55, 54, 54, 0.537);
+    margin: 40px;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }

@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    background-image: url('../assets/bg.png');
+    height: 40vh;
+    background-size:cover;
+}
+
+#home{
+    margin-top: 80px;
+}
+
+.container{
+    margin-right: 10px;
+    height: 400px;
+}
+
+#hero h1{
+    font-size: 5em;
+    font-weight: 500;
+    color: rgb(228, 215, 190)
+}
+
+#name{
+    /* text-decoration: none;
+    padding-left: 15px; */
+    color: white;
+    transition: 0.4s ease-in;
+}
+#name:hover{
+    color: white;
+    text-shadow: 0 0 25px paleturquoise,
+                 0 0 50px paleturquoise;
+    transform: scale(2.2);
+}
+
+.aboutimage {
+    margin-left: 40px;
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+    /* transition: background 0.5s,transform 0.5s;
+    border-radius: 10%;
+    box-shadow:1px 1px 20px #050141f7,
+          1px 1px 40px #0e37b3f7 */
+}
+/* .profile-image img{
+    position:relative;
+    border-radius: 50%;
+    width: 25vw;
+    box-shadow: 0 0 25px var(--effect-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+} */
+
+.aboutimage img {
+    position:relative;
+    border-radius: 50%;
+    /* width: 25vw; */
+    box-shadow: 0 0 25px var(--effect-color);
+    cursor: pointer;
+    /* transition: 0.4s ease-in-out; */
+    height: 150px;
+    width: auto;
+    transition: transform 0.9s, filter 0.8s;
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(121, 121, 121, 0.61);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.aboutcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -30%);
+    text-align: center;
+    color: #9daaea;
+    font-size: large;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.aboutimage:hover .overlay {
+    opacity: 1;
+}
+
+.aboutimage:hover .aboutcontent {
+    opacity: 1;
+}
+
+.aboutimage:hover img {
+    transform: scale(1.4) rotate(-10deg);
+                box-shadow: 0px 0px 20px #050141f7,
+                0px 0px 40px #0e37b3f7
+}

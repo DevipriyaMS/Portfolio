@@ -1,0 +1,87 @@
+body{
+    background: rgb(53,56,57);
+    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    /* height: 700px; */
+    background-size:cover;
+    margin: 0%;
+}
+#logos{
+    text-align: center;
+    margin-top: 10px;
+    /* padding-right: 20px;
+    size: 20px; */
+    /* justify-content: flex-end;
+    display: inline;
+    padding-inline: 10px;
+    size: 100px; */
+}
+#logos i{
+    display: inline;
+    padding-inline: 16px;
+    font-size: 55px;
+    text-decoration: none;
+    color: whitesmoke
+}
+/* #contactmain{
+    background: rgb(53,56,57);
+    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    height: 600px;
+    width: 100%;
+} */
+#contactmain h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+.contactform{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+label{
+    /* padding-right: 20px;
+    padding-left: 90px; */
+    font-size: 20px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    font-style: bold;
+    color: aliceblue;
+}
+input{
+    margin: 8px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 500px;
+    height: 30px;
+}
+.subbox{
+    margin: 8px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 500px;
+    height: 30px;
+}
+#msgbox{
+    margin-top: 8px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 500px;
+    height: 50px;
+}
+button{
+    margin-top: 8px;
+    padding: 7px;
+    border-style: solid;
+    box-shadow: #c2c2c2;
+    color: black;
+    font-weight:600;
+    text-decoration: none;
+    font-size: 25px;
+}
+button:hover{
+    color: rgb(5, 13, 49);
+}

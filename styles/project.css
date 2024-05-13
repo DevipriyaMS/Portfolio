@@ -1,0 +1,70 @@
+body{
+    background: rgb(53,56,57);
+    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    /* height: 700px; */
+    background-size:cover;
+}
+
+.icon a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgba(177, 143, 143, 0.683);
+}
+
+.heading h2{
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+#projectbox{
+    /* background-color: rgba(255, 240, 240, 0.084); */
+    margin: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+#projects {
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.project {
+    width: 48%; /* Adjust as needed */
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+.project img {
+    width: auto;
+    height: 80%;
+}
+  
+.project-info {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+  
+.project:hover .project-info {
+    width: 100%;
+}
+  
+.project-info h2, .project-info p {
+    padding: 10px;
+    margin: 0;
+}
