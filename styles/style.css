@@ -4,6 +4,12 @@ body {
     background-image: url('../assets/bg.png');
     height: 40vh;
     background-size:cover;
+    /* background: rgb(53,56,57);
+    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    height: 700px; */
+    /* background-size:cover; */
+    /* background: rgb(14,10,124);
+background: linear-gradient(90deg, rgba(14,10,124,0.9716678907891282) 32%, rgba(0,0,0,1) 100%); */
 }
 
 #home{
@@ -99,6 +105,6 @@ body {
 
 .aboutimage:hover img {
     transform: scale(1.4) rotate(-10deg);
-                box-shadow: 0px 0px 20px #050141f7,
-                0px 0px 40px #0e37b3f7
+                box-shadow: 0px 0px 20px #040034f7,
+                0px 0px 40px #203f9df7
 }
