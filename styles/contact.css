@@ -1,29 +1,17 @@
 body {
-    background: rgb(53,56,57);
-    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    /* background: rgb(53,56,57); */
+    /* background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%); */
     /* height: 700px; */
+    background-color: black;
     background-size:cover;
     margin: 0%;
 }
 
-.container {
-    margin-top: 0px;
-}
-
 .contact-style {
-    height: 30vh;
-    position: relative;
-    margin-top: 5%;
+    height: 190px;
 }
 
 .overlay {
-    /* position: absolute;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 30vh; */
-    z-index: 100;
     background: rgb(255, 255, 255);
     background: linear-gradient(
         0deg,
@@ -40,7 +28,6 @@ body {
     font-size: 60px;
     display: flex;
     position: absolute;
-    bottom: 20vh;
     left: 50%;
     transform: translateX(-50%);
     user-select: none;
@@ -74,26 +61,19 @@ body {
     }
 }
 
-.contact-container{
-    margin-top: -60px;
-}
-/* #logos{
+#logos{
     text-align: center;
-    margin-top: 40px;
-    padding-right: 20px;
-    size: 20px;
-    justify-content: flex-end;
-    display: inline;
-    padding-inline: 10px;
-    size: 100px;
+    margin-top: 0px;
+    z-index: 1000;
 }
+
 #logos i{
     display: inline;
     padding-inline: 16px;
-    font-size: 55px;
+    font-size: 45px;
     text-decoration: none;
-    color: black;
-} */
+    color: white;
+}
 
 .contactform{
     justify-content: center;
@@ -101,16 +81,13 @@ body {
     text-align: center;
     margin-top: 30px;
 }
+
 label{
-/* padding-right: 20px;
-    padding-left: 90px; */
     font-size: 20px;
-/* justify-content: center;
-    align-items: center;
-    text-align: center; */
     font-style: bold;
     color: aliceblue;
 }
+
 input{
     margin: 8px;
     border-style: solid;
@@ -118,6 +95,7 @@ input{
     width: 500px;
     height: 30px;
 }
+
 .subbox{
     margin: 8px;
     border-style: solid;
@@ -125,6 +103,7 @@ input{
     width: 500px;
     height: 30px;
 }
+
 #msgbox{
     margin-top: 8px;
     border-style: solid;
@@ -132,18 +111,21 @@ input{
     width: 500px;
     height: 50px;
 }
+
 button{
     margin-top: 8px;
     padding: 7px;
     border-style: solid;
     box-shadow: #c2c2c2;
 }
+
 button a{
     text-decoration: none;
     color: rgb(7, 7, 7);
     font-weight:600;
     font-size: 25px;
 }
+
 button:hover{
     color: rgb(11, 19, 56);
 }

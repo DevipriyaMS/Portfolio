@@ -1,6 +1,7 @@
 body{
-    background: rgb(53,56,57);
-    background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%);
+    /* background: rgb(53,56,57); */
+    /* background: linear-gradient(90deg, rgba(53,56,57,1) 9%, rgba(0,0,0,1) 59%); */
+    background-color: black;
     /* height: 700px; */
     background-size:cover;
 }
@@ -17,13 +18,13 @@ body{
     justify-content: center;
     align-content: center;
     color: #fff;
-    margin-top: 25px;
+    margin-top: -30px;
     margin-left: 15px;
-    font-size: 40px;
+    margin-bottom: 70px;
+    font-size: 50px;
 }
 
 #projectbox{
-    /* background-color: rgba(255, 240, 240, 0.084); */
     margin: 20px;
     margin-top: 80px;
     border-radius: 10px;
@@ -39,7 +40,7 @@ body{
 }
   
 .project {
-    width: 48%; /* Adjust as needed */
+    width: 47%;
     position: relative;
     margin-bottom: 20px;
 }
@@ -56,6 +57,7 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
+    font-size: 20px;
     overflow: hidden;
     transition: width 0.3s ease;
 }
